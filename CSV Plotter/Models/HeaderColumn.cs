@@ -21,12 +21,5 @@ namespace CSV_Plotter.Models
             get { return _column; }
             set { _column = value; }
         }
-
-        private bool _hasBeenCasted = false;
-        public bool HasBeenCasted
-        {
-            get { return _hasBeenCasted; }
-            set { _hasBeenCasted = value; }
-        }
     }
 }
